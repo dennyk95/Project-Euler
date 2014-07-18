@@ -1,0 +1,27 @@
+public class smallest_divisor
+{
+    public static void main(String []args)
+    {
+        for(int i=20; i<40; i+=20) //increment by 20 since 20 is largest common divisor
+        {
+            int count = 0;
+            for(int j=3;j<=20;j++)
+            { 
+                if (i%j == 0)
+                {
+                    count++;
+                    continue;
+                }
+                else
+                {
+                    continue;
+                }
+            }
+            System.out.println(count);
+            if (count == 18)
+            {
+                System.out.println(i);
+            }    
+        }                       
+    }
+}
