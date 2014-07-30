@@ -1,3 +1,4 @@
+
 public class sum_square_difference
 {
     public static void main(String []args)

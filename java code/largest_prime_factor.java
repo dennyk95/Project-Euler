@@ -21,7 +21,7 @@ public class largest_prime_factor
                        }
                    }
                    largest_factor = i;
-                   System.out.println(i);
+
                }
            }
            return largest_factor;
